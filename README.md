@@ -726,13 +726,6 @@ optimization.
 Machine learning or reinforcement learning may be explored after
 sufficient reliable experimental data has been collected.
 
-## 17. Repository Structure
-
-The repository is intended to follow a modular structure as development
-progresses.
-
-
-
 
 ## 17. Getting Started
 
@@ -751,26 +744,6 @@ The development environment may include:
 -   Pandas.
 -   Serial communication utilities.
 
-### Python Analysis Dependencies
-
-Install the primary analysis libraries:
-
-``` bash
-python -m pip install numpy scipy matplotlib pandas
-```
-
-Optional libraries for hardware data acquisition and storage:
-
-``` bash
-python -m pip install pyserial h5py
-```
-
-### Clone the Repository
-
-``` bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd AQUILA-X
-```
 
 ### Development Status
 
