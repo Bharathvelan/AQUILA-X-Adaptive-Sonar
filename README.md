@@ -2,14 +2,7 @@
 
 ## Closed-Loop Low-Power Adaptive Software-Defined Sonar Transmitter Payload for Autonomous Underwater Vehicles (AUVs)
 
-```{=html}
-<p align="center">
-```
-`<strong>`{=html}Sense • Analyze • Decide • Generate • Transmit •
-Measure • Adapt`</strong>`{=html}
-```{=html}
-</p>
-```
+
 An intelligent, energy-aware and reconfigurable sonar transmitter
 payload designed to adapt its transmission parameters to changing
 underwater environments.
@@ -738,64 +731,10 @@ sufficient reliable experimental data has been collected.
 The repository is intended to follow a modular structure as development
 progresses.
 
-``` text
-AQUILA-X/
-│
-├── README.md
-├── docs/
-│   ├── project_overview.md
-│   ├── system_architecture.md
-│   ├── hardware_design.md
-│   ├── adaptive_algorithm.md
-│   ├── testing_and_validation.md
-│   └── references.md
-│
-├── hardware/
-│   ├── schematics/
-│   ├── pcb_design/
-│   ├── bom/
-│   └── enclosure/
-│
-├── firmware/
-│   ├── stm32/
-│   │   ├── sensor_acquisition/
-│   │   ├── adaptive_control/
-│   │   ├── power_monitoring/
-│   │   └── communication/
-│   └── fpga/
-│       ├── waveform_generator/
-│       ├── nco_dds/
-│       ├── lfm_chirp/
-│       └── dac_interface/
-│
-├── software/
-│   ├── waveform_simulation/
-│   ├── signal_analysis/
-│   ├── fft_analysis/
-│   └── visualization/
-│
-├── datasets/
-│   ├── simulated/
-│   └── experimental/
-│
-├── tests/
-│   ├── waveform_tests/
-│   ├── hardware_tests/
-│   ├── adaptive_tests/
-│   └── validation/
-│
-├── results/
-│   ├── plots/
-│   ├── spectrograms/
-│   └── measurement_reports/
-│
-└── LICENSE
-```
 
-*This is the proposed repository organization. Add directories and files
-as the corresponding modules are implemented.*
 
-## 18. Getting Started
+
+## 17. Getting Started
 
 ### Prerequisites
 
@@ -839,7 +778,7 @@ Document which modules are implemented, simulated, bench-tested or
 experimentally validated. The proposed architecture does not imply that
 all hardware modules are already operational.
 
-## 19. Project Development Status
+## 18. Project Development Status
 
 Update this table with actual progress and measured evidence as
 development continues.
@@ -859,7 +798,7 @@ development continues.
   Closed-Loop Adaptation        Integrated validation
   Underwater Testing            Controlled acoustic experiments
 
-## 20. References and Technical Background
+## 19. References and Technical Background
 
 The project draws on established engineering concepts in:
 
@@ -877,7 +816,7 @@ Add verified research papers, standards, datasheets and technical
 publications to `docs/references.md`, including publication details and
 DOI or official URLs.
 
-## 21. Conclusion
+## 20. Conclusion
 
 AQUILA-X proposes a modular, low-power and feedback-driven
 software-defined sonar transmitter payload for autonomous underwater
@@ -909,11 +848,4 @@ underwater sensing and autonomous marine exploration systems.
 -   **Organization:** Ministry of Earth Sciences -- National Institute
     of Ocean Technology
 
-```{=html}
-<p align="center">
-```
-`<strong>`{=html}AQUILA-X --- Intelligent Adaptation for the Next
-Generation of Underwater Sensing.`</strong>`{=html}
-```{=html}
-</p>
-```
+
